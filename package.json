@@ -2,7 +2,7 @@
   "name": "businesswebsite",
   "version": "1.0.0",
   "description": "This is sample front end part of website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
