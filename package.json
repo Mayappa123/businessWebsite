@@ -1,0 +1,19 @@
+{
+  "name": "businesswebsite",
+  "version": "1.0.0",
+  "description": "This is sample front end part of website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayappa123/businessWebsite.git"
+  },
+  "author": "mayappa pujari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayappa123/businessWebsite/issues"
+  },
+  "homepage": "https://github.com/Mayappa123/businessWebsite#readme"
+}
