@@ -42,16 +42,49 @@ header nav .left a:hover {
   color: var(--primary);
 }
 
-header nav {
+/* header nav {
   padding: 2rem 0;
-}
+} */
 
 header nav .branding {
   margin-right: 3rem;
 }
 
 #main-nav {
+  display: flex;
+  align-items: center;
   padding-top: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 80px !important;
+}
+
+.navLink {
+  padding: 0 0 0 10px;
+}
+
+.Companylogo {
+  height: 35px;
+  width: 35px;
+  border: 10px solid #3dcfd3;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.Companyname {
+  padding-left: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.hero {
+  margin-top: 80px;
+}
+
+.user {
+  position: absolute;
+  right: 10px;
 }
 
 .hero .left img {
@@ -85,7 +118,6 @@ header nav .branding {
 section {
   padding: 4rem 0;
   display: flex;
-
 }
 
 section.ourValues {
@@ -105,8 +137,6 @@ section .valImage {
 section .valPara {
   width: 60vw;
 }
-
-
 
 .valPara p {
   font-size: 20px;
@@ -133,6 +163,16 @@ section .valPara {
 section.work {
   background: var(--light);
   padding: 4rem 0;
+}
+section.Newsletter {
+  display: block;
+}
+
+.Newsletter {
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding: 50px 0 50px 0;
 }
 
 footer {
