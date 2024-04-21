@@ -51,6 +51,8 @@ header nav .branding {
 }
 
 #main-nav {
+  background-color: #161616;
+  color: white;
   display: flex;
   align-items: center;
   padding-top: 0px;
