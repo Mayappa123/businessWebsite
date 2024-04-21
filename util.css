@@ -19,10 +19,7 @@
   cursor: pointer;
   text-transform: uppercase;
   transition: all 0.3s ease;
-  /* -webkit-transition: all;
-  -moz-transition: all;
-  -ms-transition: all;
-  -o-transition: all; */
+
 }
 .btn-primary {
   background: var(--primary);
@@ -47,4 +44,8 @@
 }
 .justify-center {
   justify-content: center;
+}
+
+.contact {
+  margin-top: 50px;
 }
